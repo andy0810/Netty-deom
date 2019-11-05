@@ -45,9 +45,9 @@ public class TimeServer {
         int port = 8080;
         if (args != null && args.length > 0){
             try{
-
+                System.out.println("11111111111");
             }catch (NumberFormatException e){
-
+                System.out.println(e.fillInStackTrace());
             }
         }
         new TimeServer().bind(port);
