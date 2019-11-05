@@ -8,7 +8,6 @@ class NettyDemoApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println("ceshii yongljsdlhfdsfd");
     }
 
 }
